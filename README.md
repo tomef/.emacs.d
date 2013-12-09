@@ -1,4 +1,6 @@
-# Radamant's emacs configuration
+# My emacs configuration
+
+# Proudly Found Elsewhere [at Radamant's page](https://github.com/radamant/.emacs.d)
 
 This configuration uses the
 [pallet](https://github.com/rdallasgray/pallet) package manager for
