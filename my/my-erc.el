@@ -1,11 +1,11 @@
 (require 'tls)
 (require 'erc)
 
-(setq my-erc-identities '("adam@substantial.com" "ampearson@gmail.com"))
+(setq my-erc-identities '("bion@substantial.com" "bionjohnson@gmail.com"))
 (setq my-erc-flowdock-nickname "@adam")
 
 (setq erc-current-nick-highlight-type 'nick)
-(setq erc-keywords '("@adam" "@all" "@everyone"))
+(setq erc-keywords '("@bion" "@all" "@everyone"))
 (setq erc-track-use-faces t)
 (setq erc-track-faces-priority-list
       '(erc-current-nick-face erc-keyword-face))

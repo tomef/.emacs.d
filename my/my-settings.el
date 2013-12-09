@@ -22,6 +22,9 @@
 
 (load custom-file)
 
+;; turn off blinking cursor
+(blink-cursor-mode 0)
+
 ;; backup autosave etc
 ;; Put autosave files (ie #foo#) and backup files (ie foo~) in ~/.emacs.d/.
 (custom-set-variables
