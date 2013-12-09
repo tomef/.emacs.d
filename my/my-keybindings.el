@@ -1,4 +1,3 @@
-(global-set-key (kbd "C-x C-c") 'dont-kill-emacs)
 (when-available 'smex
  (global-set-key  (kbd "M-x") 'smex))
 
