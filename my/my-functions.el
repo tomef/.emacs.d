@@ -40,10 +40,6 @@ buffer read-only, so I suggest setting kill-read-only-ok to t."
     (kill-line arg)
     (toggle-read-only 0)))
 
-(defun dont-kill-emacs () ;; why would i close it?
-  (interactive)
-  (error (substitute-command-keys "i can never be killed.")))
-
 (defun rename-current-buffer-and-file ()
   "Renames current buffer and file it is visiting."
   (interactive)
