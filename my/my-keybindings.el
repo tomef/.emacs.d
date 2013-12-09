@@ -21,13 +21,13 @@
 (global-set-key (kbd "M-o") 'indent-and-open-newline)
 (global-set-key (kbd "C-o") 'previous-indent-and-open-newline)
 
+(global-set-key (kbd "C-x t") 'simp-find-test-or-source-other-window)
 
 (global-set-key (kbd "M-i") nil)
 (global-set-key (kbd "M-i m") 'flyspell-mode)
 (global-set-key (kbd "M-i b") 'ispell-buffer)
 (global-set-key (kbd "M-i w") 'ispell-word)
 (global-set-key (kbd "M-i s") 'dictionary-search)
-
 
 (global-set-key (kbd "M-j s") 'simp-project-rgrep)
 (global-set-key (kbd "M-j S") 'simp-project-rgrep-dwim)
