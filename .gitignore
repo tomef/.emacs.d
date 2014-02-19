@@ -9,4 +9,5 @@
 /image-dired*
 /tramp
 .cask*
-
+/backups
+/autosaves
