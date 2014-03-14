@@ -3,7 +3,8 @@
  require-final-newline 't
  multi-term-program "/bin/zsh"
  inhibit-startup-message t
- org-agenda-files (list "~/.org/home.org" "~/.org/work.org"))
+ ;org-agenda-files (list "~/.org/home.org" "~/.org/work.org")
+ )
 
 
 (fset 'yes-or-no-p 'y-or-n-p)

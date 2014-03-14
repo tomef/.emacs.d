@@ -11,3 +11,4 @@
 .cask*
 /backups
 /autosaves
+/auto-save-list
