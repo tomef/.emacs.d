@@ -54,6 +54,12 @@
        my-settings
        my-initializers))
 
+;; Add sass to path
+    (setq exec-path (cons (expand-file-name "/usr/local/bin") exec-path))
+    (add-to-list 'load-path (expand-file-name "~/.emacs.d"))
+    (autoload 'scss-mode "scss-mode")
+    (add-to-list 'auto-mode-alist '("\\.scss\\'" . scss-mode))
+
 ;; Powerline tweaked for EVIL
     (powerline-center-evil-theme)
 
